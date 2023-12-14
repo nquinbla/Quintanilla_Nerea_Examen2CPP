@@ -37,6 +37,8 @@ d). Una característica específica de C.
    - Luego desarrollamos una funcion la cual muestra todos los campos de dicha estructura.
   3. **Comparativa**
       Sabiendo que C++ es una extensión de C la cuál ofrece carcaterísticas adicionales, algunas de las difreencias son las siguientes:
+     - Con C++ utilizamos string para el nombre en lugar de un array con carácteres.
+     - Usamos cout en lugar de printf
 ### Gestión de materias
 ### Registro de asistencia
 ### Manejo de excepciones
