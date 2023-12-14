@@ -1,13 +1,14 @@
 // 1. Estructura del estudiante con C++
-// a. Implementa una estructura llamada Estudiante con los campos: nombre, edad, y promedio.
-// b. Desarrolla la función mostrarEstudiante() que muestre todos los campos de la estructura.
+// 2. Registro de Asistencia con C++
+// 3. Manejo de excepciones con C++
+
 
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-// a. Estructura llamada Estudiante con los campos: nombre, edad, y promedio.
+// 1a. Estructura llamada Estudiante con los campos: nombre, edad, y promedio.
 
 struct Estudiante
 {
@@ -16,7 +17,7 @@ struct Estudiante
     float promedio;
 };
 
-// b. Función mostrarEstudiante() que muestre todos los campos de la estructura.
+// 1b. Función mostrarEstudiante() que muestre todos los campos de la estructura.
 
 void mostrarEstudiante(Estudiante estudiante)
 {

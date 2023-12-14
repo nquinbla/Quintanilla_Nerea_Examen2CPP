@@ -1,6 +1,6 @@
-// 2. Estructura del estudiante con C
-// a. Implementa una estructura llamada Estudiante con los campos: nombre, edad, y promedio.
-// b. Desarrolla la función mostrarEstudiante() que muestre todos los campos de la estructura.
+// 1. Estructura del estudiante con C
+// 2. Registro de Asistencia con C
+// 3. Manejo de excepciones con C
 
 #include <iostream>
 
