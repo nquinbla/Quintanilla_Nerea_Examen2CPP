@@ -47,3 +47,25 @@ void eliminarMateria(Estudiante &estudiante, string materia)
     throw invalid_argument("La materia no existe");
 }
 
+// Estructura Asistencia
+struct Asistencia
+{
+    string materia;
+    int asistencias;
+    int faltas;
+};
+
+// Función para registrar asistencia de un estudiante
+void registrarAsistencia(Estudiante &estudiante, Asistencia asistencia)
+{
+    for (int i = 0; i < estudiante.materias.size(); i++)
+    {
+        if (estudiante.materias[i] == asistencia.materia)
+        {
+            estudiante.materias.erase(estudiante.materias.begin() + i);
+            return;
+        }
+    }
+    throw invalid_argument("La materia no existe");
+}
+
