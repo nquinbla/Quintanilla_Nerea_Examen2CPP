@@ -4,11 +4,10 @@ link: https://github.com/nquinbla/Quintanilla_Nerea_Examen2CPP.git
 
 ## [PARTE 1] PREGUNTAS DE ELECCIÓN MÚLTIPLE (20%)
 1. ¿Cuál es la principal diferencia entre la estructura básica del programa en C y C++?
-   
-a). C utiliza cout y cin mientras que C++ utiliza printf y scanf.
-b). C utiliza printf y scanf mientras que C++ utiliza std::cout y std::cin.
-c). No hay ninguna diferencia.
-d). C++ utiliza printf y scanf mientras que C utiliza std::cout y std::cin.
+a. C utiliza cout y cin mientras que C++ utiliza printf y scanf.
+b. C utiliza printf y scanf mientras que C++ utiliza std::cout y std::cin.
+c. No hay ninguna diferencia.
+d. C++ utiliza printf y scanf mientras que C utiliza std::cout y std::cin.
 
 3. ¿Qué es un espacio de nombres en C++?
 a). Una característica que permite agrupar entidades como clases, objetos y funciones bajo un nombre.
