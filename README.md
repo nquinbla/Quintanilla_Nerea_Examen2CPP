@@ -28,7 +28,7 @@ c). Una forma de definir variables.
 d). Una característica específica de C.
 
 ## [PARTE 2] PREGUNTA DE DESARROLLO DE CÓDIGO (80%)
-* Estructura del estudiante
+### Estructura del estudiante
   1.**C++**
    - Implementamos una estructura llamada Estudiante con los campos nombre, edad y promedio.
    - Luego desarrollamos una funcion la cual muestra todos los campos de dicha estructura.
@@ -37,9 +37,10 @@ d). Una característica específica de C.
    - Luego desarrollamos una funcion la cual muestra todos los campos de dicha estructura.
   3. **Comparativa**
       Sabiendo que C++ es una extensión de C la cuál ofrece carcaterísticas adicionales, algunas de las difreencias son las siguientes:
-* Gestión de materias
-* Registro de asistencia
-* Manejo de excepciones
+### Gestión de materias
+### Registro de asistencia
+### Manejo de excepciones
+
 ## [CONCLUSIÓN]
 * ¿Cuál de los dos lenguajes consideras más adecuado para el proyecto del CGEA?
 * ¿Qué recomendaciones harías al equipo de desarrollo del CGEA para la siguiente fase del proyecto?
