@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <stexcept>
 
 using namespace std;
 
@@ -67,5 +66,31 @@ void registrarAsistencia(Estudiante &estudiante, Asistencia asistencia)
         }
     }
     throw invalid_argument("La materia no existe");
+}
+
+// Función princicap
+int main() {
+    try {
+        Estudiante estudiante1 = {"Nerea", 20, 9.5, {"Programacion", "Matematicas", "Física"}};
+        mostrarEstudiante(estudiante1);
+
+        agregarMateria(estudiante1, "Informatica");
+        mostrarEstudiante(estudiante1);
+
+        eliminarMateria(estudiante1, "Matemáticas");
+        mostrarEstudiante(estudiante1);
+
+        Asistencia asistencia1 = {"Programación", 10, 2};
+        registrarAsistencia(estudiante1, asistencia1);
+
+        // Intentar registrar asistencia de una materia que no existe
+        Asistencia asistencia2 = {"Química", 10, 2};
+        registrarAsistencia(estudiante1, asistencia2);
+    } catch (invalid_argument &e) {
+        cerr << "Error: " << e.what() << endl;
+
+
+    }
+    return 0;
 }
 
