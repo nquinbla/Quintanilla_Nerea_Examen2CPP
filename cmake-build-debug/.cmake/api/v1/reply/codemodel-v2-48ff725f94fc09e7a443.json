@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-bfb1b66f83ffc353b2b0.json",
-					"name" : "main",
+					"id" : "c++::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c++-Debug-4f671b0a3e8ed74b0d03.json",
+					"name" : "c++",
 					"projectIndex" : 0
 				}
 			]

@@ -1,2 +1,0 @@
-// Estructura del estudiante
-// 

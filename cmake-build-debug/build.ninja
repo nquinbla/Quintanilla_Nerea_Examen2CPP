@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/nerea/OneDrive/Documentos/GitHub/Quintanilla_Nerea_Examen2CPP/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target main
+# Object build statements for EXECUTABLE target c++
 
 
 #############################################
-# Order-only phony target for main
+# Order-only phony target for c++
 
-build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
+build cmake_object_order_depends_target_c++: phony || CMakeFiles/c++.dir
 
-build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/nerea/OneDrive/Documentos/GitHub/Quintanilla_Nerea_Examen2CPP/main.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\main.cpp.obj.d
+build CMakeFiles/c++.dir/c++.cpp.obj: CXX_COMPILER__c.2b.2b_unscanned_Debug C$:/Users/nerea/OneDrive/Documentos/GitHub/Quintanilla_Nerea_Examen2CPP/c++.cpp || cmake_object_order_depends_target_c++
+  DEP_FILE = CMakeFiles\c++.dir\c++.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir
+  OBJECT_DIR = CMakeFiles\c++.dir
+  OBJECT_FILE_DIR = CMakeFiles\c++.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target main
+# Link build statements for EXECUTABLE target c++
 
 
 #############################################
-# Link the executable main.exe
+# Link the executable c++.exe
 
-build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.obj
+build c++.exe: CXX_EXECUTABLE_LINKER__c.2b.2b_Debug CMakeFiles/c++.dir/c++.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_DIR = CMakeFiles\c++.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = main.exe
-  TARGET_IMPLIB = libmain.dll.a
-  TARGET_PDB = main.exe.dbg
+  TARGET_FILE = c++.exe
+  TARGET_IMPLIB = libc++.dll.a
+  TARGET_PDB = c++.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build main: phony main.exe
+build c++: phony c++.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build main: phony main.exe
 #############################################
 # Folder: C:/Users/nerea/OneDrive/Documentos/GitHub/Quintanilla_Nerea_Examen2CPP/cmake-build-debug
 
-build all: phony main.exe
+build all: phony c++.exe
 
 # =============================================================================
 # Built-in targets
