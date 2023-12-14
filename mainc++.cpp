@@ -26,3 +26,24 @@ void mostrarEstudiante(Estudiante estudiante)
         cout << estudiante.materias[i] << endl;
     }
 }
+
+// Función para agregar materia a un Estudiante
+void agregarMateria(Estudiante &estudiante, string materia)
+{
+    estudiante.materias.push_back(materia);
+}
+
+// Función para eliminar materia de un Estudiante
+void eliminarMateria(Estudiante &estudiante, string materia)
+{
+    for (int i = 0; i < estudiante.materias.size(); i++)
+    {
+        if (estudiante.materias[i] == materia)
+        {
+            estudiante.materias.erase(estudiante.materias.begin() + i);
+            return;
+        }
+    }
+    throw invalid_argument("La materia no existe");
+}
+
