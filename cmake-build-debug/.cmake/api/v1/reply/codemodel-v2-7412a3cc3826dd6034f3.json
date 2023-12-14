@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/nerea/OneDrive/Documentos/GitHub/Quintanilla_Nerea_Examen2CPP/Estructura del estudiante/cmake-build-debug",
-		"source" : "C:/Users/nerea/OneDrive/Documentos/GitHub/Quintanilla_Nerea_Examen2CPP/Estructura del estudiante"
+		"build" : "C:/Users/nerea/OneDrive/Documentos/GitHub/Quintanilla_Nerea_Examen2CPP/cmake-build-debug",
+		"source" : "C:/Users/nerea/OneDrive/Documentos/GitHub/Quintanilla_Nerea_Examen2CPP"
 	},
 	"version" : 
 	{
